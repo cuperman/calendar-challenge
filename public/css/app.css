@@ -1,0 +1,38 @@
+.cal-container {
+  width: 100%;
+  font-family: Helvetica;
+}
+
+.cal-header {
+  text-align: center;
+}
+
+.cal-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cal-table th, td {
+  border: 1px solid black;
+  width:  14%;
+}
+
+.cal-table th {
+  height: 50px;
+  background-color: #a8d0e7;
+}
+
+.cal-table td {
+  height: 150px;
+  text-align: right;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.cal-table td.blank {
+  background-color: #ddd;
+}
+
+.cal-nav {
+  text-align: center;
+}
