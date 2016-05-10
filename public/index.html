@@ -2,14 +2,15 @@
 <html>
   <head>
     <link href="/css/app.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.8.0/polyfill.min.js"></script>
     <script src="/js/app.js"></script>
   </head>
   <body>
-    <div class="calendar">
+    <div id="calendar">
       <!-- MOCK CALENDAR MARKUP -->
       <div class="cal-container">
         <header class="cal-header">
-          <h1>May 2016</h1>
+          <h1 class="title">May 2016</h1>
         </header>
         <section class="cal-body">
           <table class="cal-table">
@@ -74,9 +75,9 @@
           </table>
         </section>
         <nav class="cal-nav">
-          <a href="" class="btn-last">< Last Month</a>
-          <a href="" class="btn-this">This Month</a>
-          <a href="" class="btn-next">Next Month ></a>
+          <button>&lt; Last Month</button>
+          <button>This Month</button>
+          <button>Next Month &gt;</button>
         </nav>
       </div>
       <!-- END MOCK CALENDAR MARKUP -->
